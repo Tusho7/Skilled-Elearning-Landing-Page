@@ -96,6 +96,9 @@ body{
 .hours-members-image{
     margin-right: -350px;
 }
+.mobile-image{
+    display: none;
+}
 
 .second-section{
     margin-top: 129px;
@@ -242,4 +245,139 @@ body{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     opacity: 0.8;
 }
+
+@media (max-width: 768px){
+    body{
+        width: 768px;
+    }
+    .heading{
+        width: 90%;
+        margin-left: 39px;
+        margin-top: 31px;
+    }
+    .about-course{
+        width: 92%;
+    }
+    .about-course-text{
+        width: 52%;
+        font-size: 16px;
+        padding: 0px;
+        margin-top: 25px;
+    }
+    .main-text{
+        font-size: 40px;
+        width: 49%;
+    }
+    .start{
+        margin-left: 39px;
+        margin-top: 105px;
+    }
+    .hours-members-image{
+        width: 640px;
+        height: 640px;
+        width: 640px;
+        height: 640px;
+        position: absolute;
+        top: -106px;
+        left: 350px;
+    }
+    .getstart-button{
+        width: 26%;
+        padding: 15px 35px;
+        margin-top: 25px;
+    }
+    .first-row, .second-row{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 50px;
+        margin-left: 39px;
+    }
+    .head{
+        margin-top: 24px;
+    }
+    .description{
+        margin-top: 16px;
+    }
+    .container-button{
+        margin-top: 24px;
+    }
+    .footer{
+        margin-top: 86px;
+    }
+    .footer-text{
+        margin-left: 40px;
+    }
+    .footer-button{
+        margin-right: 40px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    .heading{
+        margin: auto 16px;
+        width: 92%;
+        margin-top: 22px;
+        gap: 107px;
+    }
+    .button{
+        width: 37%;
+        height: 48px;
+        font-size: 16px;
+        padding: 9px;
+    }
+    .start{
+        margin-top: 45px;
+        margin-left: 16px;
+        display: block;
+    }
+    .main-text{
+        font-size: 40px;
+        width: 100%;
+    }
+    .about-course-text{
+        font-size: 16px;
+        width: 92%;
+    }
+    .getstart-button{
+        width: 51%;
+        padding: 15px 37px;
+        font-size: 16px;
+    }
+    .hours-members{
+        display: none;
+    }
+    .mobile-image{
+        display: block;
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .second-section{
+        margin-top: 66px;
+    }
+    .first-row, .second-row{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+        margin-left: 16px;
+    }
+    .second-row{
+        margin-top: 40px;
+    }
+    .footer-text{
+        margin-left: 16px;
+        width: 24%;
+    }
+    .footer-button{
+        margin-right: 16px;
+        width: 38%;
+        padding: 9px 24px;
+    }
+}
+
 
